@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + TS</title>
+  </head>
+  <body>
+    <div id="app">
+      <div style="display: flex">
+        <div
+          style="
+            display: flex;
+            width: 300px;
+            height: 100px;
+            justify-content: space-between;
+            flex-direction: column;
+          "
+        >
+          <input id="login" placeholder="Login" />
+          <input id="senha" placeholder="Senha" type="password" />
+          <input id="api-key" placeholder="Api Key" />
+          <button id="login-button">Login</button>
+        </div>
+        <div id="search-container" style="margin-left: 20px">
+          <input id="search" placeholder="Escreva..." />
+          <button id="search-button">Pesquisar Filme</button>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
